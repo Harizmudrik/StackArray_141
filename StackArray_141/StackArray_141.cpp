@@ -5,7 +5,12 @@
 #include<string>
 using namespace std;
 
-class
+class StackArray {
+private:
+    string stack_array[5];
+    int top;
+    E
+};
 
 int main()
 {
