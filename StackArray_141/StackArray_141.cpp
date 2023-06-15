@@ -26,6 +26,15 @@ public:
         cout << endl;
         cout << element << "ditambahkan(pushed)" << endl;
 
+        return element;
+    }
+
+    void pop() {
+        if (empty()) {      //step 1
+            cout << "\nStack is empty. Cannot pop." << endl;    //1.a
+            return;     //1.b
+        }
+
 
     }
 };
